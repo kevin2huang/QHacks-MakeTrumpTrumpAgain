@@ -3,7 +3,8 @@
 	height: 40vmin;
 	left:50%;
 	top:30%;
-	background-color: red; 
+	background:Trumppics/trumpbanner.JPG; 
+	margin: 0 auto;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
@@ -24,4 +25,29 @@
 	background-color: white;
 	position:absolute;
 	transform: translate(-50%,-50%);
+}
+
+.leftbtn{
+	width:47.5vmin;
+	height: 45vmin;
+	right:50%;
+	top:50%;
+	background-color:green;
+	position:absolute;
+}
+
+.lrbtnbtn{
+	left:50%;
+	top:35%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.rightbtn{
+	width:47.5vmin;
+	height: 45vmin;
+	left:50%;
+	top:50%;
+	background-color:red;
+	position:absolute;
 }
