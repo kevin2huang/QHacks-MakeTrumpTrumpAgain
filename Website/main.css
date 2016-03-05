@@ -1,0 +1,27 @@
+.qcontainer{
+	width: 95vmin;
+	height: 40vmin;
+	left:50%;
+	top:30%;
+	background-color: red; 
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.quote{
+	left:30%;
+	top:20%;
+	font-size: 4vmin;
+	background-color: white;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.donald{
+	left:40%;
+	top:80%;
+	font-size: 5vmin;
+	background-color: white;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
