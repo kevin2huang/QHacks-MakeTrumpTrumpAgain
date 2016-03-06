@@ -1,8 +1,14 @@
+.flag{
+	background:url(Trumppics/trump.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 .qcontainer{
 	width: 95vmin;
 	height: 40vmin;
 	left:50%;
-	top:30%;
+	top:40%;
 	background:url(Trumppics/trumpbanner.JPG) no-repeat center top; 
 	background-size: 100% 100%;
 	margin: 0 auto;
@@ -32,9 +38,9 @@
 
 .quotebox{
 	left:50%;
-	top:55%;
+	top:68%;
 	width:73vmin;
-	height:25vmin;
+	height:34.5vmin;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
@@ -62,10 +68,10 @@
 }
 
 .donald{
-	right:0%;
-	top:80%;
+	left:50%;
+	top:65%;
 	font-size: 5vmin;
-	color:white;
+	color:black;
 	font-weight: bold;
 	position:absolute;
 	transform: translate(-50%,-50%);
@@ -75,7 +81,7 @@
 	width:47.5vmin;
 	height: 45vmin;
 	right:50%;
-	top:50%;
+	top:60%;
 	position:absolute;
 }
 
@@ -90,6 +96,6 @@
 	width:47.5vmin;
 	height: 45vmin;
 	left:50%;
-	top:50%;
+	top:60%;
 	position:absolute;
 }
