@@ -1,5 +1,5 @@
 html{
-	background: url(Trumppics/trumposium22.jpg) no-repeat center center fixed;
+	background: url(trumppics/trumposium22.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -10,7 +10,7 @@ html{
 	top:10%;
 	width: 70vmin;
 	height: 18vmin;
-	background-image: url(Trumppics/bannerred.png);
+	background-image: url(trumppics/bannerred.png);
 	background-size: 100% 100%;
 	position: absolute;
 	transform: translate(-50%,-50%); 
@@ -21,8 +21,8 @@ html{
 	top:24%;
 	width: 47vmin;
 	height: 33vmin;
-	position: absolute; 
-	background-color: yellow;
+	position: absolute;
+	background-image: url(trumppics);
 	transform: translate(-50%, -50%);
 }
 
@@ -31,7 +31,7 @@ html{
 	top:70%;
 	width: 25vmin;
 	height: 25vmin;
-	background: url(Trumppics/score.PNG);
+	background: url(trumppics/score.png);
 	background-size: 100% 100%;
 	font-weight: bold;
 	color: black;
@@ -68,10 +68,9 @@ html{
 	height: 40vmin;
 	left:73%;
 	top:35%;
-	background:url(Trumppics/trumpbanner.JPG) no-repeat center top; 
+	background:url(trumppics/trumpbanner.JPG) no-repeat center top; 
 	background-size: 100% 100%;
 	margin: 0 auto;
-	opacity: 0.9;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
@@ -109,7 +108,7 @@ html{
 	top:0%;
 	width:7vmin;
 	height: 7vmin;
-	background: url(Trumppics/leftquote56.png) no-repeat center top;
+	background: url(trumppics/leftquote56.png) no-repeat center top;
 	background-size: 100% 100%;
 	margin: 0 auto;
 	position: absolute;
@@ -120,7 +119,7 @@ html{
 	bottom:0%;
 	width:7vmin;
 	height: 7vmin;
-	background: url(Trumppics/whitequotes56.png) no-repeat center top;
+	background: url(trumppics/whitequotes56.png) no-repeat center top;
 	background-size: 100% 100%;
 	margin: 0 auto;
 	position: absolute;
