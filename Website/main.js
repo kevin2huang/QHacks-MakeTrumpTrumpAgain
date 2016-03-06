@@ -4820,7 +4820,7 @@ $('#rightbtn').on('click', function (e) {
 	getNewText();
 })
 
-$('#divID').css("background-image", "url(/myimage.jpg)");  
+//$('#divID').css("background-image", "url(trumppics/bad/nobackground/1.png)");  
 
 
 function btnClickCorrect() {
