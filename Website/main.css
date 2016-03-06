@@ -1,7 +1,46 @@
 .flag{
-	background:url(Trumppics/trump.jpg);
+	width:2000px;
+	height:1000px;
+	background:url(Trumppics/trumposium.jpg);
     background-repeat: no-repeat;
     background-size: contain;
+}
+
+.scorecontainer{
+	left:49.5%;
+	top:87%;
+	width: 25vmin;
+	height: 5vmin;
+	font-weight: bold;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+.scoretrue{
+	left:13%;
+	top:50%;
+	font-size: 4vmin;
+	color:black;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+.outof{
+	left:50%;
+	top:50%;
+	font-size: 4vmin;
+	color: black;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+.scoretotal{
+	right:0%;
+	top:50%;
+	font-size: 4vmin;
+	color:black;
+	position:absolute;
+	transform:translate(-50%,-50%);
 }
 
 .qcontainer{
@@ -19,9 +58,9 @@
 
 .qqcontainer{
 	width: 89vmin;
-	height: 25vmin;
+	height: 35vmin;
 	left:50%;
-	top:39%;
+	top:50%;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
@@ -38,7 +77,7 @@
 
 .quotebox{
 	left:50%;
-	top:68%;
+	top:50%;
 	width:73vmin;
 	height:34.5vmin;
 	position:absolute;
