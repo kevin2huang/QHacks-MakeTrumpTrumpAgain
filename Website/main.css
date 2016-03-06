@@ -3,26 +3,70 @@
 	height: 40vmin;
 	left:50%;
 	top:30%;
-	background:Trumppics/trumpbanner.JPG; 
+	background:url(Trumppics/trumpbanner.JPG) no-repeat center top; 
+	background-size: 100% 100%;
 	margin: 0 auto;
+	opacity: 0.9;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.qqcontainer{
+	width: 89vmin;
+	height: 25vmin;
+	left:50%;
+	top:39%;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
 
 .quote{
-	left:30%;
-	top:20%;
-	font-size: 4vmin;
-	background-color: white;
+	left:50%;
+	top:50%;
+	font-size: 5vmin;
+	color: white;
+	text-align: center;
+	position:relative;
+	transform: translate(-50%,-50%);
+}
+
+.quotebox{
+	left:50%;
+	top:55%;
+	width:73vmin;
+	height:25vmin;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
 
+.leftquotes{
+	left:0%;
+	top:0%;
+	width:7vmin;
+	height: 7vmin;
+	background: url(Trumppics/leftquote56.png) no-repeat center top;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.rightquotes{
+	right:0%;
+	bottom:0%;
+	width:7vmin;
+	height: 7vmin;
+	background: url(Trumppics/whitequotes56.png) no-repeat center top;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
 .donald{
-	left:40%;
+	right:0%;
 	top:80%;
 	font-size: 5vmin;
-	background-color: white;
+	color:white;
+	font-weight: bold;
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
@@ -32,7 +76,6 @@
 	height: 45vmin;
 	right:50%;
 	top:50%;
-	background-color:green;
 	position:absolute;
 }
 
@@ -48,6 +91,5 @@
 	height: 45vmin;
 	left:50%;
 	top:50%;
-	background-color:red;
 	position:absolute;
 }
