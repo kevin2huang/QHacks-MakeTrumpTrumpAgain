@@ -1,53 +1,62 @@
-.flag{
-	width:2000px;
-	height:1000px;
-	background:url(Trumppics/trumposium.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
+html{
+	background: url(Trumppics/trumposium2.JPG) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
+.trump{
+	left:33.3%;
+	top:18.5%;
+	width: 47vmin;
+	height: 37vmin;
+	background-color: yellow;
+	position: absolute; 
+	transform: translate(-50%, -50%);
+}
 .scorecontainer{
-	left:49.5%;
-	top:87%;
+	left:33%;
+	top:70%;
 	width: 25vmin;
-	height: 5vmin;
+	height: 25vmin;
+	background: url(Trumppics/score.PNG);
+	background-size: 100% 100%;
 	font-weight: bold;
+	color: black;
 	position:absolute;
 	transform:translate(-50%,-50%);
 }
 
 .scoretrue{
-	left:13%;
-	top:50%;
+	left:20%;
+	top:38%;
 	font-size: 4vmin;
-	color:black;
+	text-align: left;
 	position:absolute;
-	transform:translate(-50%,-50%);
 }
 
 .outof{
 	left:50%;
 	top:50%;
 	font-size: 4vmin;
-	color: black;
 	position:absolute;
 	transform:translate(-50%,-50%);
 }
 
 .scoretotal{
-	right:0%;
-	top:50%;
+	right:18%;
+	top:38%;
 	font-size: 4vmin;
-	color:black;
+	text-align: right;
 	position:absolute;
-	transform:translate(-50%,-50%);
 }
 
 .qcontainer{
 	width: 95vmin;
 	height: 40vmin;
-	left:50%;
-	top:40%;
+	left:73%;
+	top:35%;
 	background:url(Trumppics/trumpbanner.JPG) no-repeat center top; 
 	background-size: 100% 100%;
 	margin: 0 auto;
@@ -106,7 +115,7 @@
 	position: absolute;
 }
 
-.donald{
+/*.donald{
 	left:50%;
 	top:65%;
 	font-size: 5vmin;
@@ -115,12 +124,12 @@
 	position:absolute;
 	transform: translate(-50%,-50%);
 }
-
+*/
 .leftbtn{
 	width:47.5vmin;
 	height: 45vmin;
-	right:50%;
-	top:60%;
+	right:27%;
+	top:55.5%;
 	position:absolute;
 }
 
@@ -134,7 +143,7 @@
 .rightbtn{
 	width:47.5vmin;
 	height: 45vmin;
-	left:50%;
-	top:60%;
+	left:73%;
+	top:55.5%;
 	position:absolute;
 }

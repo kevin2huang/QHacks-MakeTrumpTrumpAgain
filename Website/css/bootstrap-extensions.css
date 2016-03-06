@@ -1,0 +1,8 @@
+.btn-xlg {
+    padding: 70px 70px;
+    font-size: 65px; //change this to your desired size
+    line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
