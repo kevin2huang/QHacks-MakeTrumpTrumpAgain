@@ -4790,6 +4790,8 @@ var score = 0;
 var total = 0; //total # of questions played so far
 var trumpDrumpf;
 getNewText();
+var audio = new Audio('cheering2.mp3');
+var audio2 = new Audio('boos.mp3');
 
 function getNewText() {
 	trumpDrumpf = getRandomInt(0,1);
@@ -4804,6 +4806,13 @@ function getNewText() {
 }
 
 $('#leftbtn').on('click', function (e) {
+	if(!audio.paused){
+		audio.pause();
+	}
+	if(!audio2.paused){
+		audio2.pause();
+	}
+	
 	if (trumpDrumpf == false) {	//insert score changing code if correct
 		btnClickCorrect();
 	}
@@ -4812,6 +4821,13 @@ $('#leftbtn').on('click', function (e) {
 })
 
 $('#rightbtn').on('click', function (e) {
+	if(!audio.paused){
+		audio.pause();
+	}
+	if(!audio2.paused){
+		audio2.pause();
+	}
+	
 	if (trumpDrumpf == true) {	//insert score changing code if correct
 		btnClickCorrect();
 	}
@@ -4822,11 +4838,14 @@ $('#rightbtn').on('click', function (e) {
 function btnClickCorrect() {
 		score++;
 		total++;
+
 		$("#score").text(score); //update score + totals
 		$("#total").text(total);
 		var num = getRandomInt(1,4);
-	var imageUrl = "trumppics/good/nobackground/" + num + ".png";
+		var imageUrl = "trumppics/good/nobackground/" + num + ".png";
 		$('.trump').css('background-image', 'url(' + imageUrl + ')');
+		audio.currentTime = 0;
+		audio.play();
 }
 
 function btnClickWrong() {
@@ -4835,4 +4854,6 @@ function btnClickWrong() {
 	var num = getRandomInt(1,7);
 	var imageUrl = "trumppics/bad/nobackground/" + num + ".png";
 	$('.trump').css('background-image', 'url(' + imageUrl + ')');
+	audio2.currentTime = 0;
+	audio2.play();
 }
