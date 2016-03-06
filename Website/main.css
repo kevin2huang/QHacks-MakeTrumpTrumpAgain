@@ -22,7 +22,7 @@ html{
 	width: 47vmin;
 	height: 32vmin;
 	position: absolute;
-	background-image: url(trumppics/neutral/funny.PNG);
+	background-image: url(trumppics/neutral/funny.png);
 	background-size: 100% 100%;
 	transform: translate(-50%, -50%);
 }
