@@ -1,20 +1,31 @@
 html{
-	background: url(Trumppics/trumposium2.JPG) no-repeat center center fixed;
+	background: url(Trumppics/trumposium22.JPG) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 }
+.banner{
+	left:33%;
+	top:10%;
+	width: 70vmin;
+	height: 18vmin;
+	background-image: url(Trumppics/bannerred.png);
+	background-size: 100% 100%;
+	position: absolute;
+	transform: translate(-50%,-50%); 
+}
 
 .trump{
-	left:33.3%;
-	top:18.5%;
+	left:33%;
+	top:24%;
 	width: 47vmin;
-	height: 37vmin;
-	background-color: yellow;
+	height: 33vmin;
 	position: absolute; 
+	background-color: yellow;
 	transform: translate(-50%, -50%);
 }
+
 .scorecontainer{
 	left:33%;
 	top:70%;
