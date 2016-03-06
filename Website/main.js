@@ -89,7 +89,7 @@ var trump = [
 "You're going to see preexisting conditions and everything else be part of it, but the price will be done, and the insurance companies can pay.",
 "That means -- and he got 20 and 22, and he lost in South Carolina so badly -- that was going to be his stronghold.",
 "I was the grand marshall down 5th Avenue a number of years ago for the Israeli Day Parade, I have very close ties to Israel.",
-"I also watched where he did a forum that looked like it came right out of a government agency, and it said on top, ",
+"I also watched where he did a forum that looked like it came right out of a government agency, and it said on top.",
 "It's going to be paid for by Canada, by the way -- maybe I'll get Canada to pay? Got to be paid for by Mexico.",
 "Kerry is moving -- and if you saw the people, because they have a video of the announcement that Carrier is moving to Mexico, OK?",
 "I wish it were spent right here in the United States, on our schools, hospitals, roads, airports, and everything else that are all falling apart.",
@@ -177,7 +177,7 @@ var trump = [
 "We were doing it New York City for a while until the worst mayor that New York City has ever had got elected",
 "There were people over in New Jersey that were watching it, a heavy Arab population, that were cheering as the buildings came down.",
 "People are going well, if it works the way I want it to work it's not because we're going to bring back jobs.",
-"You have such respect for women, you've got to speak more about it, because there's nobody that cares more for women than you.",
+"You have such respect for women, you've got to speak more about it, because there'sAnd I can't do that as well -- as a negotiator, I cannot do that as well if I'm taking big, big sides. nobody that cares more for women than you.",
 "People are going well, if it works the way I want it to work it's not because we're going to bring back jobs.",
 "You have such respect for women, you've got to speak more about it, because there's nobody that cares more for women than you.",
 "This guy used a filthy, disgusting word on television, and he should be ashamed of himself, and he should apologize, OK? Number one.",
@@ -4786,18 +4786,48 @@ function getRandomInt(min, max) {
   return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// call when generating new text
-var updateText = function () {
-	var trumpOrDrumpf = getRandomInt(0,1);	//pick an element from 1 of the 2 arrays and display it
-	if(trumpOrDrumpf == 0){
+var score = 0;
+var total = 0; //total # of questions played so far
+var trumpDrumpf;
+getNewText();
+
+function getNewText() {
+	trumpDrumpf = getRandomInt(0,1);
+	console.log(trumpDrumpf);
+	if(trumpDrumpf == false){
 		var selector = getRandomInt(0, trump.length)	//pick an element in array
 		$("#quote").text(trump[selector]);
 	}
-	else if (trumpOrDrumpf == 1){
+	else if (trumpDrumpf == true){
 		var selector = getRandomInt(0, drumpf.length)
-		$("#quote").text(trump[selector]);
+		$("#quote").text(drumpf[selector]);
 	}
 }
 
-updateText();
-//when onclick, 
+$('#leftbtn').on('click', function (e) {
+	if (trumpDrumpf == false) {	//insert score changing code if correct
+		btnClickCorrect();
+	}
+	else {btnClickWrong();}
+	getNewText();
+})
+
+$('#rightbtn').on('click', function (e) {
+	if (trumpDrumpf == true) {	//insert score changing code if correct
+		btnClickCorrect();
+	}
+	else {btnClickWrong();}
+	getNewText();
+})
+
+function btnClickCorrect() {
+		score++;
+		total++;
+		$("#score").text(score); //update score + totals
+		$("#total").text(total);
+}
+
+function btnClickWrong() {
+	total++; 
+	$("#total").text(total); //update total count
+}
