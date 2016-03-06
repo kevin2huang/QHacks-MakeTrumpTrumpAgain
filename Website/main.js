@@ -4820,6 +4820,9 @@ $('#rightbtn').on('click', function (e) {
 	getNewText();
 })
 
+$('#divID').css("background-image", "url(/myimage.jpg)");  
+
+
 function btnClickCorrect() {
 		score++;
 		total++;
