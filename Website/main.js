@@ -4793,7 +4793,6 @@ getNewText();
 
 function getNewText() {
 	trumpDrumpf = getRandomInt(0,1);
-	console.log(trumpDrumpf);
 	if(trumpDrumpf == false){
 		var selector = getRandomInt(0, trump.length)	//pick an element in array
 		$("#quote").text(trump[selector]);
@@ -4820,17 +4819,27 @@ $('#rightbtn').on('click', function (e) {
 	getNewText();
 })
 
-//$('#divID').css("background-image", "url(trumppics/bad/nobackground/1.png)");  
-
-
 function btnClickCorrect() {
 		score++;
 		total++;
 		$("#score").text(score); //update score + totals
 		$("#total").text(total);
+
 }
 
 function btnClickWrong() {
-	total++; 
+	total++; trumppics
 	$("#total").text(total); //update total count
+	changeBackgroundBad();
 }
+
+function changeBackgroundGood() {
+
+}
+
+// function changeBackgroundBad() {
+// 	var num = getRandomInt(1,6);
+// 	console.log(num);
+// 	var cssString = "trumppics/bad/nobackground/" + num + ".png"
+// 	$('#trump').css({'background-image':'url(cssString)'});
+// }

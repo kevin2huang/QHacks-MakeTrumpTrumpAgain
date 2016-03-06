@@ -20,9 +20,9 @@ html{
 	left:33%;
 	top:24%;
 	width: 47vmin;
-	height: 33vmin;
+	height: 32vmin;
 	position: absolute;
-	background-image: url(trumppics/funny.png);
+	background-image: url(trumppics/neutral/funny.PNG);
 	background-size: 100% 100%;
 	transform: translate(-50%, -50%);
 }
