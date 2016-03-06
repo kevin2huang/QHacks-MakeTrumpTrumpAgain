@@ -4824,13 +4824,13 @@ function btnClickCorrect() {
 		total++;
 		$("#score").text(score); //update score + totals
 		$("#total").text(total);
-		
-
+		$('.trump').css('background-image', 'url(trumppics/neutral/funny.png)');
 }
 
 function btnClickWrong() {
 	total++;
 	$("#total").text(total); //update total count
-	
-	//changeBackgroundBad();
+	var num = getRandomInt(1,6);
+	var imageUrl = "trumppics/bad/nobackground/" + num + ".png";
+	$('.trump').css('background-image', 'url(' + imageUrl + ')');
 }
