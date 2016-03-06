@@ -158,3 +158,23 @@ html{
 	top:55.5%;
 	position:absolute;
 }
+
+.github{
+	width: 10vmin;
+	height: 10vmin;
+	left:27%;
+	bottom:1%;
+	background-image:url(octocat.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.dev{
+	width: 10vmin;
+	height: 10vmin;
+	left:33%;
+	bottom:0.5%;
+	background-image:url(dev.PNG);
+	background-size: 100% 100%;
+	position: absolute;
+}
