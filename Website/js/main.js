@@ -4790,8 +4790,8 @@ var score = 0;
 var total = 0; //total # of questions played so far
 var trumpDrumpf;
 getNewText();
-var audio = new Audio('cheering2.mp3');
-var audio2 = new Audio('boos.mp3');
+var audio = new Audio('audio/cheering2.mp3');
+var audio2 = new Audio('audio/boos.mp3');
 
 function getNewText() {
 	trumpDrumpf = getRandomInt(0,1);
@@ -4842,7 +4842,7 @@ function btnClickCorrect() {
 		$("#score").text(score); //update score + totals
 		$("#total").text(total);
 		var num = getRandomInt(1,4);
-		var imageUrl = "trumppics/good/nobackground/" + num + ".png";
+		var imageUrl = "pics/good/nobackground/" + num + ".png";
 		$('.trump').css('background-image', 'url(' + imageUrl + ')');
 		audio.currentTime = 0;
 		audio.play();
@@ -4852,7 +4852,7 @@ function btnClickWrong() {
 	total++;
 	$("#total").text(total); //update total count
 	var num = getRandomInt(1,7);
-	var imageUrl = "trumppics/bad/nobackground/" + num + ".png";
+	var imageUrl = "pics/bad/nobackground/" + num + ".png";
 	$('.trump').css('background-image', 'url(' + imageUrl + ')');
 	audio2.currentTime = 0;
 	audio2.play();
