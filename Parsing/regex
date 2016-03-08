@@ -1,0 +1,25 @@
+regex
+	a - contains a
+	A - contains A
+	ab - contains ab
+	[xX] - x or X
+	[0-9] OR [\d] - 0-9
+	[\D] - non-digit
+	[\w] - any word char
+	[\W] - any non-word char
+
+	^[xy] - begins with x or y
+	[xy]$ - ends with x or y
+
+	| - or
+	() - subexpression
+	\s - whitespace
+	\S - non-whitespace (visible chars)
+	. - any char (except \n)
+
+	* - match prev element 0+ times
+	+ - match prev element 1+
+	? - match prev element 0|1 time
+	{n} - match prev element n times
+	{n,m} - match prev element n to m times
+	\1 \2 - group 1, group 2 (with parenthesis)

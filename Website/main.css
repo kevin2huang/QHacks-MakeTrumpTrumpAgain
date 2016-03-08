@@ -1,0 +1,180 @@
+html{
+	background: url(trumppics/trumposium22.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+.banner{
+	left:33%;
+	top:10%;
+	width: 70vmin;
+	height: 18vmin;
+	background-image: url(trumppics/bannerred.png);
+	background-size: 100% 100%;
+	position: absolute;
+	transform: translate(-50%,-50%); 
+}
+
+.trump{
+	left:33%;
+	top:24%;
+	width: 47vmin;
+	height: 32vmin;
+	position: absolute;
+	background-image: url(trumppics/neutral/funny.png);
+	background-size: 100% 100%;
+	transform: translate(-50%, -50%);
+}
+
+.scorecontainer{
+	left:33%;
+	top:70%;
+	width: 25vmin;
+	height: 25vmin;
+	background: url(trumppics/score.png);
+	background-size: 100% 100%;
+	font-weight: bold;
+	color: black;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+.scoretrue{
+	left:20%;
+	top:38%;
+	font-size: 4vmin;
+	text-align: left;
+	position:absolute;
+}
+
+.outof{
+	left:50%;
+	top:50%;
+	font-size: 4vmin;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+
+.scoretotal{
+	right:18%;
+	top:38%;
+	font-size: 4vmin;
+	text-align: right;
+	position:absolute;
+}
+
+.qcontainer{
+	width: 95vmin;
+	height: 40vmin;
+	left:73%;
+	top:35%;
+	background:url(trumppics/trumpbanner.jpg) no-repeat center top; 
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.qqcontainer{
+	width: 89vmin;
+	height: 35vmin;
+	left:50%;
+	top:50%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.quote{
+	left:50%;
+	top:50%;
+	font-size: 5vmin;
+	color: white;
+	text-align: center;
+	position:relative;
+	transform: translate(-50%,-50%);
+}
+
+.quotebox{
+	left:50%;
+	top:50%;
+	width:73vmin;
+	height:34.5vmin;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.leftquotes{
+	left:0%;
+	top:0%;
+	width:7vmin;
+	height: 7vmin;
+	background: url(trumppics/leftquote56.png) no-repeat center top;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+.rightquotes{
+	right:0%;
+	bottom:0%;
+	width:7vmin;
+	height: 7vmin;
+	background: url(trumppics/whitequotes56.png) no-repeat center top;
+	background-size: 100% 100%;
+	margin: 0 auto;
+	position: absolute;
+}
+
+/*.donald{
+	left:50%;
+	top:65%;
+	font-size: 5vmin;
+	color:black;
+	font-weight: bold;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+*/
+.leftbtn{
+	width:47.5vmin;
+	height: 45vmin;
+	right:27%;
+	top:55.5%;
+	position:absolute;
+}
+
+.lrbtnbtn{
+	left:50%;
+	top:35%;
+	position:absolute;
+	transform: translate(-50%,-50%);
+}
+
+.rightbtn{
+	width:47.5vmin;
+	height: 45vmin;
+	left:73%;
+	top:55.5%;
+	position:absolute;
+}
+
+.github{
+	width: 10vmin;
+	height: 10vmin;
+	left:27%;
+	bottom:1%;
+	background-image:url(octocat.png);
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+.dev{
+	width: 10vmin;
+	height: 10vmin;
+	left:33%;
+	bottom:0.5%;
+	background-image:url(dev.PNG);
+	background-size: 100% 100%;
+	position: absolute;
+}
